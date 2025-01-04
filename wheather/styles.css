@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:powderblue;
+    text-align: center;
+}
+
+#city-input {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+#get-weather-btn {
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#weather-data {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-data-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.weather-data-details {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
